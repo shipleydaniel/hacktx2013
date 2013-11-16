@@ -5,13 +5,25 @@
 		<title>HackTX</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 
+		<script src="jquery.timer.js" type="text/javascript"></script>
+		<script src="jquery.min.js" type="text/javascript"></script>
+		<script src="timer.js" type="text/javascript"></script>
+
 	</head>
 	<body>
 	<div id="main-content">
 		<div id="logo"></div>
 		<div id="menu"></div>
 		<div id="start"></div>
-		<div id="timer"></div>
+		<div id="timer">
+			<span id="countdown">00:30:00</span>
+			<form id="timer-form">
+				<input type="button" value="Play/Pause" onclick="Example2.Timer.toggle();">
+				<input type="button" value="Stop/Reset" onclick="Example2.resetCountdown();">
+				<input type="text" name="startTime" value="300" style="width:30px;">
+			</form>
+
+		</div>
 		<div id="text-field">
 			<div id="letter"></div>
 		</div>
