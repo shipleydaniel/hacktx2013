@@ -11,5 +11,5 @@ class RapGeniusItem(Item):
     artist = Field()
     lyric = Field()
     url = Field()
-    match = Field()
+    match_percentage = Field()
 
