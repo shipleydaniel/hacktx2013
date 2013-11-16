@@ -1,0 +1,84 @@
+
+#main-content {
+	width: 1024px;
+	height: 768px;
+	background-color: #1abc9c;
+
+}
+
+#logo {
+	width: 200px;
+	height: 100px;
+	top: 20px;
+	left: 30px;
+	position: relative;
+	background-color: #34495e;
+
+}
+
+
+#menu {
+	width: 50px;
+	height: 50px;
+	left: 946px;
+	top: -80px;
+	position: relative;
+	background-color: #34495e;
+
+}
+
+
+#start {
+	position: relative;
+	left: 350px;
+	top: 20px;
+	height: 300px;
+	width: 300px;
+	background-color: #34495e;
+	border-radius: 150px;
+}
+
+
+#text-field {
+	height: 200px;
+	width: 500px;
+	position: relative;
+	top: 40px;
+	left: 250px;
+	background-color: #34495e;
+}
+
+#letter {
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff;
+	position: relative;
+}
+		
+.score-block {
+	height: 20px;
+	width: 50px;
+	margin: 10px;
+	background-color: #34495e;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 2px;
+	position: relative;
+	left: 200px;
+
+}
+
+#team-a-score {
+	position: relative;
+	top: -150px;
+	left: -120px;
+
+
+}
+
+#team-b-score {
+	position: relative;
+	top: -320px;
+	left: 650px;
+
+}
